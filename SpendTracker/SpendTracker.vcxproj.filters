@@ -50,6 +50,15 @@
     <ClCompile Include="Resources\GUI\spendtracker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Resources\Logic\logic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Parser\parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Storage\storage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="Resources\GUI\Qt\spendtracker.qrc">
@@ -65,6 +74,15 @@
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_spendtracker.h">
       <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Logic\logic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Parser\parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Storage\storage.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

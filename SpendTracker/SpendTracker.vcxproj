@@ -83,8 +83,11 @@
     <ClCompile Include="GeneratedFiles\Release\moc_spendtracker.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Resources\Logic\logic.cpp" />
+    <ClCompile Include="Resources\Parser\parser.cpp" />
     <ClCompile Include="Resources\GUI\main.cpp" />
     <ClCompile Include="Resources\GUI\spendtracker.cpp" />
+    <ClCompile Include="Resources\Storage\storage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="Resources\GUI\spendtracker.h">
@@ -113,6 +116,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_spendtracker.h" />
+    <ClInclude Include="Resources\Logic\logic.h" />
+    <ClInclude Include="Resources\Parser\parser.h" />
+    <ClInclude Include="Resources\Storage\storage.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="Resources\GUI\Qt\spendtracker.qrc">
