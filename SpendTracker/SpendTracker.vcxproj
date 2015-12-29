@@ -71,6 +71,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Resources\Libraries\jsoncpp.cpp" />
+    <ClCompile Include="Resources\Storage\Account\account.cpp" />
     <ClCompile Include="GeneratedFiles\Debug\moc_spendtracker.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -88,6 +90,8 @@
     <ClCompile Include="Resources\GUI\main.cpp" />
     <ClCompile Include="Resources\GUI\spendtracker.cpp" />
     <ClCompile Include="Resources\Storage\storage.cpp" />
+    <ClCompile Include="Resources\Storage\storageload.cpp" />
+    <ClCompile Include="Resources\Storage\storagesave.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="Resources\GUI\spendtracker.h">
@@ -115,10 +119,15 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Resources\Libraries\json\json-forwards.h" />
+    <ClInclude Include="resources\libraries\json\json.h" />
+    <ClInclude Include="Resources\Storage\Account\account.h" />
     <ClInclude Include="GeneratedFiles\ui_spendtracker.h" />
     <ClInclude Include="Resources\Logic\logic.h" />
     <ClInclude Include="Resources\Parser\parser.h" />
     <ClInclude Include="Resources\Storage\storage.h" />
+    <ClInclude Include="Resources\Storage\storageload.h" />
+    <ClInclude Include="Resources\Storage\storagesave.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="Resources\GUI\Qt\spendtracker.qrc">

@@ -1,11 +1,18 @@
 #include "storage.h"
 
+Storage::Storage() {
+    // TODO Auto-generated constructor stub
 
-storage::storage(void)
-{
 }
 
+Storage::~Storage() {
+    // TODO Auto-generated destructor stub
+}
 
-storage::~storage(void)
-{
+std::map<std::string, Account> Storage::load() {
+    return storageLoad.execute();
+}
+
+std::string Storage::save(std::map<std::string, Account> allData) {
+    return storageSave.execute(allData);
 }
