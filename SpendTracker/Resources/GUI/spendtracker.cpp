@@ -10,3 +10,9 @@ SpendTracker::~SpendTracker()
 {
 
 }
+
+int SpendTracker::on_pushButton_clicked() 
+{
+	ui.pushButton->setText("Oh YEA");
+	return 0;
+}
